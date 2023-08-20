@@ -5,7 +5,7 @@ import { AiOutlineEnvironment } from 'react-icons/ai';
 import profileImage from '../../assets/tiyas-2.jpg';
 
 const Home = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1j9Bn08rtc0eMEezTZCnCeCnTm1YCAV06/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/1ADgvn05_HvbSHgjl3pN5V9-8u0fjwuco/view?usp=sharing';
 
     const jobTitles = ['Software Engineer', 'Graduate Student'];
     const location = 'New York City, USA';

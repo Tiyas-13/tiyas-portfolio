@@ -15,9 +15,9 @@ const Navbar = () => {
 
     return (
         <div className='bg-[#F2EDE4] fixed w-full h-[80px] flex justify-between items-center px-1 pr-6 text-[#7C1C3B]'>
-            <div>
-                <img src={Hermione} alt="logo image" style={{width: "200px", height:"200px", marginBottom:"20px"}}/>
-            </div>
+            <Link to="home" smooth={true}>
+                <img className="cursor-pointer" src={Hermione} alt="logo image" style={{width: "200px", height:"200px", marginBottom:"20px"}}/>
+            </Link>
 
             {/* menu */}
             <ul className="hidden md:flex space-x-4">
