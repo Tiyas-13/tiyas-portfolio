@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.eaa65e01.css",
-    "main.js": "/static/js/main.fac76495.js",
-    "static/media/tiyas-2.jpg": "/static/media/tiyas-2.08a00ad4892a057be590.jpg",
-    "static/media/hermione.png": "/static/media/hermione.f1b76a7d8f3848cd714a.png",
-    "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
-    "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
-    "index.html": "/index.html",
-    "main.eaa65e01.css.map": "/static/css/main.eaa65e01.css.map",
-    "main.fac76495.js.map": "/static/js/main.fac76495.js.map"
+    "main.css": "/tiyas-portfolio/static/css/main.eaa65e01.css",
+    "main.js": "/tiyas-portfolio/static/js/main.0dbc8040.js",
+    "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
+    "static/media/hermione.png": "/tiyas-portfolio/static/media/hermione.f1b76a7d8f3848cd714a.png",
+    "static/media/school.svg": "/tiyas-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/tiyas-portfolio/index.html",
+    "main.eaa65e01.css.map": "/tiyas-portfolio/static/css/main.eaa65e01.css.map",
+    "main.0dbc8040.js.map": "/tiyas-portfolio/static/js/main.0dbc8040.js.map"
   },
   "entrypoints": [
     "static/css/main.eaa65e01.css",
-    "static/js/main.fac76495.js"
+    "static/js/main.0dbc8040.js"
   ]
 }

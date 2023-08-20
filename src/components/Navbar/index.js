@@ -60,14 +60,14 @@ const Navbar = () => {
 
 
             {/* hamburger */}
-            <div className="md:hidden z-10" onClick={handleClick}>
+            <div className="md:hidden z-10 cursor-pointer" onClick={handleClick}>
                 {
                     mm ? <FaTimes /> : <FaBars />
                 }
             </div>
 
             {/* mobile menu */}
-            <ul className={mm ? "fixed top-0 right-0 w-[40vw] h-[40vh] bg-[#F2EDE4] flex flex-col justify-center items-center shadow-lg transition-all duration-300" : "hidden"}>
+            <ul className={mm ? "fixed top-10 right-0 w-[40vw] h-[40vh] bg-[#F2EDE4] flex flex-col justify-center items-center shadow-lg transition-all duration-300" : "hidden"}>
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="home" smooth={true} onClick={handleClick}>
                         <div className="flex">
@@ -111,17 +111,17 @@ const Navbar = () => {
             <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                 <ul>
                     <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
-                        <a href="/" className="flex justify-between items-center w-full text-white">
+                        <a href="https://www.linkedin.com/in/tiyas-dey-623b6818b/" rel="noopener noreferrer" target="_blank" className="flex justify-between items-center w-full text-white">
                             Linkedin <FaLinkedin size={20}/>
                         </a>
                     </li>
                     <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
-                        <a href="/" className="flex justify-between items-center w-full text-white">
+                        <a href="https://github.com/Tiyas-13" rel="noopener noreferrer" target="_blank" className="flex justify-between items-center w-full text-white">
                             Github <FaGithub size={20}/>
                         </a>
                     </li>
                     <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-300">
-                        <a href="/" className="flex justify-between items-center w-full text-white">
+                        <a href="mailto:td2355@nyu.edu" className="flex justify-between items-center w-full text-white">
                             Mail <HiOutlineMail size={20}/>
                         </a>
                     </li>

@@ -13,6 +13,17 @@ const Experience = () => {
         "extra curriculars"
     ]);
 
+    const nit = 'https://drive.google.com/file/d/17y6f9bzOczN7ueRxNlVOABEknkqTuXyB/view?usp=sharing';
+    const nyu = 'https://drive.google.com/file/d/1Nd4Y8J42K7-hbZTFkfsyqVg3kksBIlPW/view?usp=sharing';
+
+    const handleNit = () => {
+        window.open(nit, '_blank');
+    };
+
+    const handleNyu = () => {
+        window.open(nyu, '_blank');
+    };
+
     return (
         <div name="experience" className="w-full h-auto bg-[#F7F4EC]">
             <nav className="flex justify-center border-b border-[#B08D57]">
@@ -50,7 +61,7 @@ const Experience = () => {
                             <p>
                                 GPA: 3.89/4.0
                             </p>
-                            <button className="border-[#B08D57] border-2 p-1 mt-2 text-[#B08D57] flex items-center text-sm hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F2EDE4]">Download Transcript</button>
+                            <button onClick={handleNyu} className="border-[#B08D57] border-2 p-1 mt-2 text-[#B08D57] flex items-center text-sm hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F2EDE4]">Download Transcript</button>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
@@ -64,7 +75,7 @@ const Experience = () => {
                             <p>
                                 GPA: 9.19/10.0
                             </p>
-                            <button className="border-[#B08D57] border-2 p-1 mt-2 text-[#B08D57] flex items-center text-sm hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F2EDE4]">Download Transcript</button>
+                            <button onClick={handleNit} className="border-[#B08D57] border-2 p-1 mt-2 text-[#B08D57] flex items-center text-sm hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F2EDE4]">Download Transcript</button>
                         </VerticalTimelineElement>
                     </VerticalTimeline>
                 </TabPanel>
