@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tiyas-portfolio/static/css/main.5a43e7f7.css",
-    "main.js": "/tiyas-portfolio/static/js/main.63c380af.js",
+    "main.css": "/tiyas-portfolio/static/css/main.39e7740a.css",
+    "main.js": "/tiyas-portfolio/static/js/main.88693056.js",
     "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
     "static/media/contact-bg-6.mp4": "/tiyas-portfolio/static/media/contact-bg-6.006815abfecbf81b086f.mp4",
     "static/media/Cheap.png": "/tiyas-portfolio/static/media/Cheap.711d23f6ef8421ac7996.png",
@@ -18,11 +18,11 @@
     "static/media/school.svg": "/tiyas-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/tiyas-portfolio/index.html",
-    "main.5a43e7f7.css.map": "/tiyas-portfolio/static/css/main.5a43e7f7.css.map",
-    "main.63c380af.js.map": "/tiyas-portfolio/static/js/main.63c380af.js.map"
+    "main.39e7740a.css.map": "/tiyas-portfolio/static/css/main.39e7740a.css.map",
+    "main.88693056.js.map": "/tiyas-portfolio/static/js/main.88693056.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a43e7f7.css",
-    "static/js/main.63c380af.js"
+    "static/css/main.39e7740a.css",
+    "static/js/main.88693056.js"
   ]
 }

@@ -38,7 +38,9 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="mx-4 bg-white p-6 rounded-lg shadow-md project-card hover:shadow-xl hover:border-[#B08D57] transition-shadow duration-300 border border-transparent flex flex-col justify-between"
+                            className="mx-4 bg-white p-6 rounded-lg shadow-md project-card transition-transform duration-300
+                            transform hover:translate-y-[-5px] hover:shadow-lg hover:border-[#B08D57] border
+                            border-transparent flex flex-col justify-between fade-in-up cursor-pointer"
                         >
                             <div>
                                 <img src={project.image} alt={project.title} className="mb-4 rounded-lg shadow-md" />
