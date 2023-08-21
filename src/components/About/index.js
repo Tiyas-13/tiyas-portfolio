@@ -1,24 +1,22 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './index.css'; // Make sure to create this CSS file
 
 const About = () => {
     return (
-        <div name="about" className="w-full h-screen bg-[#F2EDE4] text-white">
-            <div className="flex flex-col justify-center items-center w-full h-screen md:h-full">
-                <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
-                    <div className="sm:text-right pb-8 pl-4">
-                        <p className="text-4xl font-bold inline border-b-4 border-[#5A142A] text-[#5A142A] animated fadeInUp">About</p>
-                    </div>
-                    <div></div>
-                </div>
+        <div name="about" className="w-full h-full bg-[#F7F4EC] text-white pb-20 pt-40 lg:pt-0">
+            <div className="text-center">
+                <h2 className="text-3xl lg:text-5xl font-bold text-[#5A142A] mb-2 text-with-shadow">About Me</h2>
+                <div className="h-1 bg-[#5A142A] w-16 mx-auto mb-0"></div>
+            </div>
+            <div className="flex flex-col items-center md:h-full mt-10 ml-10 mr-10 lg:ml-0 lg:mr-0">
 
-                <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-                    <div className="sm:text-right text-3xl font-bold animated fadeInUp">
+                <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 pb-4">
+                    <div className="sm:text-right text-2xl font-bold">
                         <p className="text-[#B08D57]">
-                            Thank you for visiting my website. Hopefully we can connect soon. This a little about me.
+                            Thank you for visiting my portfolio. Hopefully we can connect soon. This a little about me.
                         </p>
                     </div>
-                    <div className="animated fadeInUp">
+                    <div className="bg-white shadow-lg p-4 rounded-lg">
                         <p className="text-[#B08D57]">
                             I am a graduate student at New York University pursuing a MS in Computer Engineering. I currently live in New York, USA. I love
                             learning and gathering new experiences and aspire to make meaningful contributions in

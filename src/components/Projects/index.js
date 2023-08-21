@@ -30,15 +30,18 @@ const Projects = () => {
     ];
 
     return (
-        <div name="projects" className="bg-[#F2EDE4] py-16 w-full h-auto">
+        <div name="projects" className="bg-[#F7F4EC] py-16 w-full h-auto">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-4xl font-bold border-b-4 border-[#5A142A] text-[#5A142A] inline">Projects</h2>
+                <div className="text-center">
+                    <h2 className="text-3xl lg:text-5xl font-bold text-[#5A142A] mb-2 text-with-shadow">Projects</h2>
+                    <div className="h-1 bg-[#5A142A] w-16 mx-auto mb-0"></div>
+                </div>
                 <p className="mt-4 text-gray-700">A sample portfolio of my personal projects. Find more at: <a href="https://github.com/Tiyas-13" target="_blank" className="font-bold">https://github.com/Tiyas-13</a> </p>
                 <div className="grid gap-8 md:grid-cols-3 mt-10">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="mx-4 bg-white p-6 rounded-lg shadow-md project-card transition-transform duration-300
+                            className="mx-4 bg-white p-6 rounded-lg shadow-lg project-card transition-transform duration-300
                             transform hover:translate-y-[-5px] hover:shadow-lg hover:border-[#B08D57] border
                             border-transparent flex flex-col justify-between fade-in-up cursor-pointer"
                         >

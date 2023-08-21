@@ -14,11 +14,16 @@
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-20px);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     border-color: #B08D57;
 }
 
 .fade-in-up {
     animation: fadeInUp 0.5s ease-out;
+}
+
+
+.text-with-shadow {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
 }

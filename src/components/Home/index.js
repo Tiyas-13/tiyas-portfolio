@@ -11,6 +11,9 @@ import gcp from '../../assets/gcp.png';
 import flask from '../../assets/flask.png';
 import mysql from '../../assets/mysql.png';
 import mongo from '../../assets/mongo.png';
+import mulesoft from '../../assets/mulesoft.png';
+import pytorch from '../../assets/pytorch.png';
+import spring from '../../assets/spring-2.png';
 import './index.css';
 
 const Home = () => {
@@ -48,8 +51,8 @@ const Home = () => {
     };
 
     return (
-        <div name="home" className="w-full bg-[#F7F4EC] py-16 h-screen lg:h-[90vh] md:p-16">
-            <div className="max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
+        <div name="home" className="w-full bg-[#F7F4EC] pt-5 pb-16 h-screen lg:h-[100vh] ">
+            <div className="mt-20 max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
                 <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                         <p className="text-gray-800 mb-2 text-xl md:text-2xl">Hello, I'm</p>
                         <h1 className="text-2xl md:text-4xl font-bold text-[#5A142A] mb-2">TIYAS DEY</h1>
@@ -114,9 +117,23 @@ const Home = () => {
                                 <img src={mysql} className="h-[30px] w-auto md:h-[40px]" alt="React" />
                                 <span className="hover-text">MySQL</span>
                             </div>
+                        </div>
+                        <div className="flex items-center space-x-5 mt-3 md:mt-10">
                             <div className="hover-content">
                                 <img src={mongo} className="h-[30px] w-auto md:h-[40px]" alt="React" />
                                 <span className="hover-text">MongoDb</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={mulesoft} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+                                <span className="hover-text">Mulesoft</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={pytorch} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+                                <span className="hover-text">PyTorch</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={spring} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+                                <span className="hover-text">Spring Boot</span>
                             </div>
                         </div>
                     </div>

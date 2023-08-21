@@ -5,7 +5,7 @@ import Socials from '../Socials';
 
 const Contact = () => {
     return (
-        <div name="contact" className="w-full h-screen contact-page">
+        <div name="contact" className="w-full h-full contact-page">
             {/* Background Video */}
             <video autoPlay loop muted className="video-background opacity-60">
                 <source src={videoSource} type="video/mp4" />
