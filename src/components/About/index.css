@@ -1,0 +1,12 @@
+/* About.css */
+.about-header {
+    background-color: #F2EDE4;
+    color: #5A142A;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-header h2 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 0.5rem;
+}

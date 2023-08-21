@@ -33,7 +33,7 @@ const About = () => {
                             Spring Boot, Flask, MySQL, MongoDB, AWS, GCP among others. I am also a Data Science and
                             Machine Learning enthusiast and am excited about the positive changes that we can make through technology.
                         </p>
-                            <br />
+                        <br />
                         <p className="text-[#B08D57]">
                             I love travelling and meeting new people, and if you can't tell from my website, I am a huge Harry Potter fan.
                             I have discovered a new found love for tiramisus and am spending most of my time trying to figure out how to make
