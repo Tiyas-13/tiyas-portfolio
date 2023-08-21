@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tiyas-portfolio/static/css/main.869724b0.css",
-    "main.js": "/tiyas-portfolio/static/js/main.5c7bbc10.js",
+    "main.js": "/tiyas-portfolio/static/js/main.cdad82ad.js",
     "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
     "static/media/contact-bg-6.mp4": "/tiyas-portfolio/static/media/contact-bg-6.006815abfecbf81b086f.mp4",
     "static/media/Cheap.png": "/tiyas-portfolio/static/media/Cheap.711d23f6ef8421ac7996.png",
@@ -22,10 +22,10 @@
     "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/tiyas-portfolio/index.html",
     "main.869724b0.css.map": "/tiyas-portfolio/static/css/main.869724b0.css.map",
-    "main.5c7bbc10.js.map": "/tiyas-portfolio/static/js/main.5c7bbc10.js.map"
+    "main.cdad82ad.js.map": "/tiyas-portfolio/static/js/main.cdad82ad.js.map"
   },
   "entrypoints": [
     "static/css/main.869724b0.css",
-    "static/js/main.5c7bbc10.js"
+    "static/js/main.cdad82ad.js"
   ]
 }
