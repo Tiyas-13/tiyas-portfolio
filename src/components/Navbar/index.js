@@ -14,7 +14,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-[#F2EDE4] fixed w-full h-[80px] flex justify-between items-center px-1 pr-6 text-[#7C1C3B]'>
+        <div className='bg-[#E6DFD2] fixed w-full h-[80px] flex justify-between items-center px-1 pr-6 text-[#7C1C3B] z-10'>
             <Link to="home" smooth={true}>
                 <img className="cursor-pointer" src={Hermione} alt="logo image" style={{width: "200px", height:"200px", marginBottom:"20px"}}/>
             </Link>
@@ -108,25 +108,7 @@ const Navbar = () => {
 
 
             {/* social icons */}
-            <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-                <ul>
-                    <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
-                        <a href="https://www.linkedin.com/in/tiyas-dey-623b6818b/" rel="noopener noreferrer" target="_blank" className="flex justify-between items-center w-full text-white">
-                            Linkedin <FaLinkedin size={20}/>
-                        </a>
-                    </li>
-                    <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
-                        <a href="https://github.com/Tiyas-13" rel="noopener noreferrer" target="_blank" className="flex justify-between items-center w-full text-white">
-                            Github <FaGithub size={20}/>
-                        </a>
-                    </li>
-                    <li className="w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-300">
-                        <a href="mailto:td2355@nyu.edu" className="flex justify-between items-center w-full text-white">
-                            Mail <HiOutlineMail size={20}/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+
 
             </div>
     );

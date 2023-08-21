@@ -1,25 +1,24 @@
 import React from 'react';
+import './index.css'; // Make sure to create this CSS file
 
 const About = () => {
     return (
         <div name="about" className="w-full h-screen bg-[#F2EDE4] text-white">
-            <div className="flex flex-col justify-center items-center w-full h-full">
+            <div className="flex flex-col justify-center items-center w-full h-screen md:h-full">
                 <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                     <div className="sm:text-right pb-8 pl-4">
-                        <p className="text-4xl font-bold inline border-b-4 border-[#5A142A] text-[#5A142A]">About</p>
+                        <p className="text-4xl font-bold inline border-b-4 border-[#5A142A] text-[#5A142A] animated fadeInUp">About</p>
                     </div>
-                    <div>
-
-                    </div>
+                    <div></div>
                 </div>
 
                 <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-                    <div className="sm:text-right text-3xl font-bold">
+                    <div className="sm:text-right text-3xl font-bold animated fadeInUp">
                         <p className="text-[#B08D57]">
                             Thank you for visiting my website. Hopefully we can connect soon. This a little about me.
                         </p>
                     </div>
-                    <div>
+                    <div className="animated fadeInUp">
                         <p className="text-[#B08D57]">
                             I am a graduate student at New York University pursuing a MS in Computer Engineering. I currently live in New York, USA. I love
                             learning and gathering new experiences and aspire to make meaningful contributions in
