@@ -13,7 +13,7 @@ import mysql from '../../assets/mysql.png';
 import mongo from '../../assets/mongo.png';
 import mulesoft from '../../assets/mulesoft.png';
 import pytorch from '../../assets/pytorch.png';
-import spring from '../../assets/spring-2.png';
+import spring from '../../assets/spring-3.png';
 import './index.css';
 
 const Home = () => {

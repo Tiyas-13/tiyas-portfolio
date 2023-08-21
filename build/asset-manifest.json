@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/tiyas-portfolio/static/css/main.80202c65.css",
-    "main.js": "/tiyas-portfolio/static/js/main.4e9885df.js",
+    "main.css": "/tiyas-portfolio/static/css/main.869724b0.css",
+    "main.js": "/tiyas-portfolio/static/js/main.6392134d.js",
     "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
     "static/media/contact-bg-6.mp4": "/tiyas-portfolio/static/media/contact-bg-6.006815abfecbf81b086f.mp4",
     "static/media/Cheap.png": "/tiyas-portfolio/static/media/Cheap.711d23f6ef8421ac7996.png",
     "static/media/Google.png": "/tiyas-portfolio/static/media/Google.b1b0c69321ee9c56a314.png",
+    "static/media/pytorch.png": "/tiyas-portfolio/static/media/pytorch.604e9f8bdf9e1dfdf13b.png",
     "static/media/react.png": "/tiyas-portfolio/static/media/react.bf7735880fe922bc62ce.png",
     "static/media/Resnet3.png": "/tiyas-portfolio/static/media/Resnet3.9824b94ec7f66d1874c0.png",
+    "static/media/spring-2.png": "/tiyas-portfolio/static/media/spring-2.41b63edd773920ba4cae.png",
     "static/media/aws.png": "/tiyas-portfolio/static/media/aws.95bdee6b9922c9b94fd5.png",
     "static/media/java.png": "/tiyas-portfolio/static/media/java.dbb484363497da3b25ee.png",
     "static/media/python.png": "/tiyas-portfolio/static/media/python.30d0fed0491acec87a96.png",
     "static/media/gcp.png": "/tiyas-portfolio/static/media/gcp.0c12653b13f82d6397b4.png",
     "static/media/flask.png": "/tiyas-portfolio/static/media/flask.81a6076576568a61f761.png",
     "static/media/mysql.png": "/tiyas-portfolio/static/media/mysql.0760333f0d80eac00fe1.png",
+    "static/media/mulesoft.png": "/tiyas-portfolio/static/media/mulesoft.ff72c65dc67621e19a8c.png",
     "static/media/mongo.png": "/tiyas-portfolio/static/media/mongo.5802f8e5990e082f0544.png",
     "static/media/school.svg": "/tiyas-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/tiyas-portfolio/index.html",
-    "main.80202c65.css.map": "/tiyas-portfolio/static/css/main.80202c65.css.map",
-    "main.4e9885df.js.map": "/tiyas-portfolio/static/js/main.4e9885df.js.map"
+    "main.869724b0.css.map": "/tiyas-portfolio/static/css/main.869724b0.css.map",
+    "main.6392134d.js.map": "/tiyas-portfolio/static/js/main.6392134d.js.map"
   },
   "entrypoints": [
-    "static/css/main.80202c65.css",
-    "static/js/main.4e9885df.js"
+    "static/css/main.869724b0.css",
+    "static/js/main.6392134d.js"
   ]
 }
