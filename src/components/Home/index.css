@@ -1,0 +1,40 @@
+/* Add this CSS to your stylesheet */
+.hover-content {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.hover-content img {
+    width: auto;
+    height: 30px;
+    transition: opacity 0.2s;
+}
+
+.hover-content .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1;
+    font-size: 16px;
+    color: #5A142A;
+    background-color: transparent;
+    padding: 4px 8px;
+}
+
+.hover-content:hover {
+    transform: translateY(-5px);
+}
+
+.hover-content:hover img {
+    opacity: 0;
+}
+
+.hover-content:hover .hover-text {
+    opacity: 1;
+    visibility: visible;
+}

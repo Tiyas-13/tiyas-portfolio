@@ -39,7 +39,7 @@ const Contact = () => {
                             className="bg-[#B08D57] text-[#F2EDE4] hover:bg-[#5A142A] px-6 py-3 rounded-md transition duration-300 w-full"
                             type="submit"
                         >
-                            Let's connect
+                            Let's connect!
                         </button>
                     </form>
                 </div>

@@ -3,6 +3,15 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { AiOutlineEnvironment } from 'react-icons/ai';
 import profileImage from '../../assets/tiyas-2.jpg';
+import aws from '../../assets/aws.png';
+import java from '../../assets/java.png';
+import react from '../../assets/react.png';
+import python from '../../assets/python.png';
+import gcp from '../../assets/gcp.png';
+import flask from '../../assets/flask.png';
+import mysql from '../../assets/mysql.png';
+import mongo from '../../assets/mongo.png';
+import './index.css';
 
 const Home = () => {
     const resumeUrl = 'https://drive.google.com/file/d/1ADgvn05_HvbSHgjl3pN5V9-8u0fjwuco/view?usp=sharing';
@@ -39,8 +48,8 @@ const Home = () => {
     };
 
     return (
-        <div name="home" className="w-full bg-[#F7F4EC] py-16 h-screen lg:h-[90vh] p-8 md:p-16">
-            <div className="max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-full">
+        <div name="home" className="w-full bg-[#F7F4EC] py-16 h-screen lg:h-[90vh] md:p-16">
+            <div className="max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
                 <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                         <p className="text-gray-800 mb-2 text-xl md:text-2xl">Hello, I'm</p>
                         <h1 className="text-2xl md:text-4xl font-bold text-[#5A142A] mb-2">TIYAS DEY</h1>
@@ -59,8 +68,8 @@ const Home = () => {
                         >
                             Download Resume
                             <span className="group-hover:rotate-90 duration-300">
-                                <HiArrowNarrowRight className="ml-2"/>
-                            </span>
+                            <HiArrowNarrowRight className="ml-2"/>
+                        </span>
                         </button>
                         <div className="flex space-x-4 lg:hidden">
                             <a href="https://github.com/Tiyas-13" target="_blank" rel="noopener noreferrer">
@@ -73,6 +82,42 @@ const Home = () => {
                             <a href="mailto:td2355@nyu.edu">
                                 <FaEnvelope className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
                             </a>
+                        </div>
+                    </div>
+                    <div className="justify-center">
+                        <div className="flex items-center space-x-5 mt-3 md:mt-10">
+                            <div className="hover-content">
+                                <img src={java} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+                                <span className="hover-text">Java</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={python} className="h-[30px] w-auto md:h-[40px]" alt="Python" />
+                                <span className="hover-text">Python</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={react} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">React</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={flask} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">Flask</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={aws} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">AWS</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={gcp} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">GCP</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={mysql} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">MySQL</span>
+                            </div>
+                            <div className="hover-content">
+                                <img src={mongo} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+                                <span className="hover-text">MongoDb</span>
+                            </div>
                         </div>
                     </div>
                 </div>
