@@ -11,7 +11,7 @@ const Experience = () => {
         "education",
         "work experience",
         "extra curriculars"
-    ]);
+    ], "work experience");
 
     const nit = 'https://drive.google.com/file/d/17y6f9bzOczN7ueRxNlVOABEknkqTuXyB/view?usp=sharing';
     const nyu = 'https://drive.google.com/file/d/1Nd4Y8J42K7-hbZTFkfsyqVg3kksBIlPW/view?usp=sharing';
