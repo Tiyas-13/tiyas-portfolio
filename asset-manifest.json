@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/tiyas-portfolio/static/css/main.5a43e7f7.css",
-    "main.js": "/tiyas-portfolio/static/js/main.c5625c10.js",
+    "main.js": "/tiyas-portfolio/static/js/main.63c380af.js",
     "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
-    "static/media/contact-bg-4.mp4": "/tiyas-portfolio/static/media/contact-bg-4.0b0b346875751fc3b688.mp4",
+    "static/media/contact-bg-6.mp4": "/tiyas-portfolio/static/media/contact-bg-6.006815abfecbf81b086f.mp4",
     "static/media/Cheap.png": "/tiyas-portfolio/static/media/Cheap.711d23f6ef8421ac7996.png",
     "static/media/Google.png": "/tiyas-portfolio/static/media/Google.b1b0c69321ee9c56a314.png",
     "static/media/react.png": "/tiyas-portfolio/static/media/react.bf7735880fe922bc62ce.png",
@@ -19,10 +19,10 @@
     "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/tiyas-portfolio/index.html",
     "main.5a43e7f7.css.map": "/tiyas-portfolio/static/css/main.5a43e7f7.css.map",
-    "main.c5625c10.js.map": "/tiyas-portfolio/static/js/main.c5625c10.js.map"
+    "main.63c380af.js.map": "/tiyas-portfolio/static/js/main.63c380af.js.map"
   },
   "entrypoints": [
     "static/css/main.5a43e7f7.css",
-    "static/js/main.c5625c10.js"
+    "static/js/main.63c380af.js"
   ]
 }
