@@ -27,7 +27,7 @@ const About = () => {
                         </p>
                         <br />
                         <p className="text-[#B08D57]">
-                            I primarily code in Java. I have about 1 year of Full time work experience at JPMorgan Chase
+                            I primarily code in Java and Python. I have about 1 year of Full time work experience at JPMorgan Chase
                             as a Software Engineer along with other valuable internship experiences. I am experienced in Full Stack Web
                             Development, API Development and Data Manipulation. My technical skills include Java, Python, C, React.js,
                             Spring Boot, Flask, MySQL, MongoDB, AWS, GCP among others. I am also a Data Science and
