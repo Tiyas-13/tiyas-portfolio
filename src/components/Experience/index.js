@@ -25,7 +25,7 @@ const Experience = () => {
     };
 
     return (
-        <div name="experience" className="w-full h-auto bg-[#F7F4EC]">
+        <div name="experience" className="w-full h-auto bg-[#F7F4EC] px-4 lg:px-0">
             <nav className="flex justify-center border-b border-[#B08D57]">
                 <TabSelector
                     isActive={selectedTab === "education"}

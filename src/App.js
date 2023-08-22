@@ -23,10 +23,12 @@ function App() {
             <AnimatedSection id="experience" thr={0.1}><Experience /></AnimatedSection>
         </Element>
         <Element name="projects">
-            <AnimatedSection id="projects" thr={0.2}><Projects /></AnimatedSection>
+            <AnimatedSection id="projects" thr={0.05}><Projects /></AnimatedSection>
         </Element>
     </div>
-          <Contact />
+          <Element name="contact">
+              <AnimatedSection id="contact" thr={0.1}><Contact /></AnimatedSection>
+          </Element>
       </div>
   );
 }

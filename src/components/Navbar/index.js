@@ -3,6 +3,7 @@ import './index.css';
 import Hermione from '../../assets/logo-2.png';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaHome, FaSuitcase, FaPhone, FaPen } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import {AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineProject, AiOutlinePhone} from "react-icons/ai";
 import { Link } from 'react-scroll';
 import {FaPerson} from "react-icons/fa6";
 
@@ -20,39 +21,39 @@ const Navbar = () => {
             </Link>
 
             {/* menu */}
-            <ul className="hidden md:flex space-x-4">
+            <ul className="hidden md:flex space-x-2">
                 <li>
                     <Link to="home" smooth={true}>
                         <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57]">
-                            <FaHome className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Home
+                            <AiOutlineHome className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Home
                         </div>
                     </Link>
                 </li>
                 <li>
                     <Link to="about" smooth={true}>
                         <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57]">
-                            <FaPerson className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> About
+                            <AiOutlineUser className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> About
                         </div>
                     </Link>
                 </li>
                 <li>
                     <Link to="experience" smooth={true}>
                         <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
-                            <FaSuitcase className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Experience
+                            <AiOutlineBook className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Experience
                         </div>
                     </Link>
                 </li>
                 <li>
                     <Link to="projects" smooth={true}>
                         <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
-                            <FaPen className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Projects
+                            <AiOutlineProject className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Projects
                         </div>
                     </Link>
                 </li>
                 <li>
                     <Link to="contact" smooth={true}>
                         <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
-                            <FaPhone className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Contact
+                            <AiOutlinePhone className="m-1 text-[#5A142A] text-xl transition-colors duration-300 group-hover:text-[#B08D57]" /> Contact
                         </div>
                     </Link>
                 </li>
@@ -71,35 +72,35 @@ const Navbar = () => {
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="home" smooth={true} onClick={handleClick}>
                         <div className="flex">
-                            <FaHome className="m-1"/> Home
+                            <AiOutlineHome className="m-1"/> Home
                         </div>
                     </Link>
                 </li>
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="about" smooth={true} onClick={handleClick}>
                         <div className="flex">
-                            <FaPerson className="m-1"/> About
+                            <AiOutlineUser className="m-1"/> About
                         </div>
                     </Link>
                 </li>
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="experience" smooth={true} onClick={handleClick}>
                         <div className="flex">
-                            <FaSuitcase className="m-1"/> Experience
+                            <AiOutlineBook className="m-1"/> Experience
                         </div>
                     </Link>
                 </li>
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="projects" smooth={true} onClick={handleClick}>
                         <div className="flex">
-                            <FaPen className="m-1"/> Projects
+                            <AiOutlineProject className="m-1"/> Projects
                         </div>
                     </Link>
                 </li>
                 <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
                     <Link to="contact" smooth={true} onClick={handleClick}>
                         <div className="flex">
-                            <FaPhone className="m-1"/> Contact
+                            <AiOutlinePhone className="m-1"/> Contact
                         </div>
                     </Link>
                 </li>

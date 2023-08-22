@@ -1,7 +1,7 @@
 /* src/components/AnimatedSection.css */
 .animated-section {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-40px);
     transition: opacity 1.5s ease, transform 1.5s ease;
 }
 
@@ -9,3 +9,4 @@
     opacity: 1;
     transform: translateY(0);
 }
+
