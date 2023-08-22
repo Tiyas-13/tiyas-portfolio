@@ -4,18 +4,30 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import { Element } from 'react-scroll';
+import AnimatedSection from "./components/AnimatedSection";
 
 
 function App() {
   return (
-    <div>
+      <div>
+    <div className="bg-[#F7F4EC]">
       <Navbar />
-        <Home />
-        <About />
-        <Experience />
-        <Projects />
-      <Contact />
+        <Element name="home">
+            <AnimatedSection id="home" thr={0.2}><Home /></AnimatedSection>
+        </Element>
+        <Element name="about">
+            <AnimatedSection id="about" thr={0.3}><About /></AnimatedSection>
+        </Element>
+        <Element name="experience">
+            <AnimatedSection id="experience" thr={0.1}><Experience /></AnimatedSection>
+        </Element>
+        <Element name="projects">
+            <AnimatedSection id="projects" thr={0.2}><Projects /></AnimatedSection>
+        </Element>
     </div>
+          <Contact />
+      </div>
   );
 }
 

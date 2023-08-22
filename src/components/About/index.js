@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './index.css'; // Make sure to create this CSS file
 
-const About = () => {
+const About = ({ id, children }) => {
+
     return (
         <div name="about" className="w-full h-full bg-[#F7F4EC] text-white pb-20 pt-40 lg:pt-0">
             <div className="text-center">

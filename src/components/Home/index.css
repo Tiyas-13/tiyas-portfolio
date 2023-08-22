@@ -38,3 +38,18 @@
     opacity: 1;
     visibility: visible;
 }
+
+.zoom-text {
+    font-size: 55px;
+    animation: zoomAnimation 6s infinite alternate; /* 4s duration, infinite repeat, alternate direction */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes zoomAnimation {
+    0%, 100% {
+        transform: scale(0.8); /* Normal size */
+    }
+    50% {
+        transform: scale(1); /* Zoomed in size */
+    }
+}
