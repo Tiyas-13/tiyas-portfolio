@@ -75,108 +75,213 @@ const Home = () => {
 
 
     return (
-        <div name="home" className="w-full bg-[#F7F4EC] pt-5 pb-16 h-screen lg:h-[100vh] ">
-            <div className="mt-20 max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
-                <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-                        <p className="text-gray-800 mb-2 text-xl md:text-2xl">Hello, I'm</p>
-                        <h1 className="text-2xl md:text-4xl font-bold name-element mb-2 lg:zoom-text"
-                            style={{ color: currentColor }}>TIYAS DEY</h1>
-                    <div className="h-10"> {/* Add this div with fixed height */}
-                    <h2 className="max-w-800 text-xl md:text-2xl font-bold text-[#B08D57]">{currentTitle}</h2>
+        <div name="home" className="w-full bg-[#F7F4EC] min-h-screen">
+            <div className="max-w-screen-xl mx-auto px-6 md:ml-30 md:px-16 flex flex-col md:flex-row h-screen items-center justify-center pt-40 lg:pt-0">
+                <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left lg:ml-20">
+                    <h1 className="text-3xl md:text-5xl font-bold leading-tight name-element mb-2 lg:zoom-text" style={{ color: currentColor }}>
+                        Hello, I'm <span className="text-[#B08D57]">TIYAS</span>
+                    </h1>
+                    <div className="h-10">
+                    <h2 className="text-xl md:text-3xl font-bold text-[#B08D57] mb-4">{currentTitle}</h2>
                     </div>
-                        <p className="text-gray-700 py-4 max-w-md md:max-w-[500px] text-sm md:text-base">
+                    <p className="text-gray-700 max-w-md md:max-w-lg text-sm md:text-base">
                         Full Stack Development / API Development / Data Science
                     </p>
-
-                    <div
-                        className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 md:space-x-4">
-                        <button
-                            onClick={handleResume}
-                            className="text-[#B08D57] group border-[#B08D57] border-2 px-4 py-2 md:px-6 md:py-3 my-2 md:my-0 flex items-center hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F7F4EC] text-sm md:text-base"
-                        >
+                    <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 md:space-x-4 mt-20 lg:mt-10">
+                        <button onClick={handleResume} className="text-[#B08D57] group border-[#B08D57] border-2 px-4 py-2 md:px-6 md:py-3 my-2 md:my-0 flex items-center hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F7F4EC] text-sm md:text-base"
+                                        >
                             Download Resume
                             <span className="group-hover:rotate-90 duration-300">
-                            <HiArrowNarrowRight className="ml-2"/>
-                        </span>
+                                <HiArrowNarrowRight className="ml-2"/>
+                            </span>
                         </button>
-                        <div className="flex space-x-4 lg:hidden">
-                            <a href="https://github.com/Tiyas-13" target="_blank" rel="noopener noreferrer">
-                                <FaGithub className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
-                            </a>
-                            <a href="https://www.linkedin.com/in/tiyas-dey-623b6818b/" target="_blank"
-                               rel="noopener noreferrer">
-                                <FaLinkedin className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
-                            </a>
-                            <a href="mailto:td2355@nyu.edu">
-                                <FaEnvelope className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
-                            </a>
-                        </div>
+                                        <div className="flex space-x-4 lg:hidden">
+                                            <a href="https://github.com/Tiyas-13" target="_blank" rel="noopener noreferrer">
+                                                <FaGithub className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/tiyas-dey-623b6818b/" target="_blank"
+                                               rel="noopener noreferrer">
+                                                <FaLinkedin className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+                                            </a>
+                                            <a href="mailto:td2355@nyu.edu">
+                                                <FaEnvelope className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+                                            </a>
+                                        </div>
                     </div>
+                    {/* Social media links */}
                     <div className="justify-center">
-                        <div className="flex items-center space-x-5 mt-3 md:mt-10">
-                            <div className="hover-content">
-                                <img src={java} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
-                                <span className="hover-text">Java</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={python} className="h-[30px] w-auto md:h-[40px]" alt="Python" />
-                                <span className="hover-text">Python</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={react} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">React</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={flask} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">Flask</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={aws} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">AWS</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={gcp} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">GCP</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={mysql} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">MySQL</span>
-                            </div>
-                        </div>
-                        <div className="flex items-center space-x-5 mt-3 md:mt-10">
-                            <div className="hover-content">
-                                <img src={mongo} className="h-[30px] w-auto md:h-[40px]" alt="React" />
-                                <span className="hover-text">MongoDb</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={mulesoft} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
-                                <span className="hover-text">Mulesoft</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={pytorch} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
-                                <span className="hover-text">PyTorch</span>
-                            </div>
-                            <div className="hover-content">
-                                <img src={spring} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
-                                <span className="hover-text">Spring Boot</span>
-                            </div>
-                        </div>
-                    </div>
+                                         <div className="md:flex items-center space-x-5 mt-3 md:mt-10 grid grid-cols-6 space-y-4 md:space-y-0 mb-4 lg:mb-0">
+                                             <div className="hover-content">
+                                                 <img src={java} className="h-[20px] w-auto md:h-[50px]" alt="Java" />
+                                                 <span className="hover-text">Java</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={python} className="h-[20px] w-auto md:h-[40px]" alt="Python" />
+                                                 <span className="hover-text">Python</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={react} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">React</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={flask} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">Flask</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={aws} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">AWS</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={gcp} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">GCP</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={mysql} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">MySQL</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={mongo} className="h-[20px] w-auto md:h-[40px]" alt="React" />
+                                                 <span className="hover-text">MongoDb</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={mulesoft} className="h-[20px] w-auto md:h-[40px]" alt="Java" />
+                                                 <span className="hover-text">Mulesoft</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={pytorch} className="h-[20px] w-auto md:h-[40px]" alt="Java" />
+                                                 <span className="hover-text">PyTorch</span>
+                                             </div>
+                                             <div className="hover-content">
+                                                 <img src={spring} className="h-[20px] w-auto md:h-[40px]" alt="Java" />
+                                                 <span className="hover-text">Spring Boot</span>
+                                             </div>
+                                         </div>
+                                     </div>
                 </div>
                 <div className="md:w-1/2 md:pl-6 max-w-[70%] animated slideInRight">
-                    <img src={profileImage} alt="Profile" className="rounded-full shadow-lg mx-auto md:w-2/3"
-                         style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }}/>
-                    <div className="text-center md:text-right">
-                        <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
-                            <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
-                        </p>
-                        <p className="text-gray-700 text-sm md:text-base font-bold">
-                            Open to New Grad Software Engineering roles starting 2024
-                        </p>
-                    </div>
+                    <img
+                        src={profileImage}
+                        alt="Profile"
+                        className="rounded-full shadow-lg md:w-[70%] md:max-w-[350px] mx-auto md:mx-0 mb-8 md:mb-0"
+                        style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }}
+                    />
+                    <div className="text-center ">
+                                         <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
+                                             <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
+                                         </p>
+                                         <p className="text-gray-700 text-sm md:text-base font-bold">
+                                             Open to New Grad Software Engineering roles starting 2024
+                                         </p>
+                                     </div>
                 </div>
             </div>
         </div>
+        // <div name="home" className="w-full bg-[#F7F4EC] pt-5 pb-16 h-screen lg:h-[100vh] ">
+        //     <div className="mt-20 max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
+        //         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+        //             <div>
+        //                 <p className="text-gray-800 mb-2 text-xl md:text-2xl">Hello, I'm
+        //                    </p>
+        //                 <h1 className="text-2xl md:text-4xl font-bold name-element mb-2 lg:zoom-text"
+        //                     style={{ color: currentColor }}>
+        //                     TIYAS</h1>
+        //         </div>
+        //             <div className="h-10"> {/* Add this div with fixed height */}
+        //             <h2 className="max-w-800 text-xl md:text-2xl font-bold text-[#B08D57]">{currentTitle}</h2>
+        //             </div>
+        //                 <p className="text-gray-700 py-4 max-w-md md:max-w-[500px] text-sm md:text-base">
+        //                 Full Stack Development / API Development / Data Science
+        //             </p>
+        //
+        //             <div
+        //                 className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 md:space-x-4">
+        //                 <button
+        //                     onClick={handleResume}
+        //                     className="text-[#B08D57] group border-[#B08D57] border-2 px-4 py-2 md:px-6 md:py-3 my-2 md:my-0 flex items-center hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F7F4EC] text-sm md:text-base"
+        //                 >
+        //                     Download Resume
+        //                     <span className="group-hover:rotate-90 duration-300">
+        //                     <HiArrowNarrowRight className="ml-2"/>
+        //                 </span>
+        //                 </button>
+        //                 <div className="flex space-x-4 lg:hidden">
+        //                     <a href="https://github.com/Tiyas-13" target="_blank" rel="noopener noreferrer">
+        //                         <FaGithub className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+        //                     </a>
+        //                     <a href="https://www.linkedin.com/in/tiyas-dey-623b6818b/" target="_blank"
+        //                        rel="noopener noreferrer">
+        //                         <FaLinkedin className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+        //                     </a>
+        //                     <a href="mailto:td2355@nyu.edu">
+        //                         <FaEnvelope className="text-[#B08D57] hover:text-[#5A142A] text-lg"/>
+        //                     </a>
+        //                 </div>
+        //             </div>
+        //             <div className="justify-center">
+        //                 <div className="flex items-center space-x-5 mt-3 md:mt-10">
+        //                     <div className="hover-content">
+        //                         <img src={java} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+        //                         <span className="hover-text">Java</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={python} className="h-[30px] w-auto md:h-[40px]" alt="Python" />
+        //                         <span className="hover-text">Python</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={react} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">React</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={flask} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">Flask</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={aws} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">AWS</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={gcp} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">GCP</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={mysql} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">MySQL</span>
+        //                     </div>
+        //                 </div>
+        //                 <div className="flex items-center space-x-5 mt-3 md:mt-10">
+        //                     <div className="hover-content">
+        //                         <img src={mongo} className="h-[30px] w-auto md:h-[40px]" alt="React" />
+        //                         <span className="hover-text">MongoDb</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={mulesoft} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+        //                         <span className="hover-text">Mulesoft</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={pytorch} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+        //                         <span className="hover-text">PyTorch</span>
+        //                     </div>
+        //                     <div className="hover-content">
+        //                         <img src={spring} className="h-[30px] w-auto md:h-[40px]" alt="Java" />
+        //                         <span className="hover-text">Spring Boot</span>
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //         <div className="md:w-1/2 md:pl-6 max-w-[70%] animated slideInRight">
+        //             <img src={profileImage} alt="Profile" className="rounded-full shadow-lg mx-auto md:w-2/3"
+        //                  style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }}/>
+        //             <div className="text-center md:text-right">
+        //                 <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
+        //                     <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
+        //                 </p>
+        //                 <p className="text-gray-700 text-sm md:text-base font-bold">
+        //                     Open to New Grad Software Engineering roles starting 2024
+        //                 </p>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     );
 }
 
