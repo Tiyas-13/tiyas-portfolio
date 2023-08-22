@@ -39,17 +39,42 @@
     visibility: visible;
 }
 
-.zoom-text {
-    font-size: 55px;
-    animation: zoomAnimation 6s infinite alternate; /* 4s duration, infinite repeat, alternate direction */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-}
+/*.zoom-text {*/
+/*    font-size: 55px;*/
+/*    animation: zoomAnimation 6s infinite alternate; !* 4s duration, infinite repeat, alternate direction *!*/
+/*    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*@keyframes zoomAnimation {*/
+/*    0%, 100% {*/
+/*        transform: scale(0.8); !* Normal size *!*/
+/*    }*/
+/*    50% {*/
+/*        transform: scale(1); !* Zoomed in size *!*/
+/*    }*/
+/*}*/
 
 @keyframes zoomAnimation {
-    0%, 100% {
-        transform: scale(0.8); /* Normal size */
-    }
-    50% {
-        transform: scale(1); /* Zoomed in size */
-    }
+        0%, 100% {
+            transform: scale(0.9); /* Normal size */
+        }
+        50% {
+            transform: scale(1.1); /* Zoomed in size */
+        }
 }
+
+
+/* For screens with a max-width of 768px (smaller screens) */
+    .zoom-text {
+        font-size: 60px;
+        animation: zoomAnimation 6s infinite alternate;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .zoom-text-alternate {
+        font-size: 35px;
+        animation: zoomAnimation 6s infinite alternate;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    }
+
+

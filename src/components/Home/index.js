@@ -55,7 +55,7 @@ const Home = () => {
             <div className="mt-20 max-w-[1000px] w-[80vw] mx-auto px-8 py-8 flex flex-col justify-center items-center md:flex-row h-screen md:h-full">
                 <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                         <p className="text-gray-800 mb-2 text-xl md:text-2xl">Hello, I'm</p>
-                        <h1 className="text-2xl md:text-4xl font-bold text-[#5A142A] mb-2 zoom-text">TIYAS DEY</h1>
+                        <h1 className="text-2xl md:text-4xl font-bold text-[#5A142A] mb-2 zoom-text-alternate lg:zoom-text">TIYAS DEY</h1>
                     <div className="h-10"> {/* Add this div with fixed height */}
                     <h2 className="max-w-800 text-xl md:text-2xl font-bold text-[#B08D57]">{currentTitle}</h2>
                     </div>
@@ -139,7 +139,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="md:w-1/2 md:pl-6 max-w-[70%]">
-                    <img src={profileImage} alt="Profile" className="rounded-full shadow-lg mx-auto md:w-2/3"/>
+                    <img src={profileImage} alt="Profile" className="rounded-full shadow-lg mx-auto md:w-2/3"
+                         style={{ boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)' }}/>
                     <div className="text-center md:text-right">
                         <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
                             <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
