@@ -11,8 +11,6 @@ const Contact = () => {
                 <source src={videoSource} type="video/mp4" />
             </video>
 
-            <Socials />
-
             {/* Content */}
             <div className="max-w-5xl h-[90vh] flex flex-col justify-center items-center px-4">
                 <div className="max-w-lg mx-auto lg:w-[2000px]">

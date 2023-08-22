@@ -15,6 +15,7 @@ import mulesoft from '../../assets/mulesoft.png';
 import pytorch from '../../assets/pytorch.png';
 import spring from '../../assets/spring-3.png';
 import './index.css';
+import Socials from "../Socials";
 
 const Home = () => {
     const resumeUrl = 'https://drive.google.com/file/d/1ADgvn05_HvbSHgjl3pN5V9-8u0fjwuco/view?usp=sharing';

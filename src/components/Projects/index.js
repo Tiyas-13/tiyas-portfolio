@@ -5,6 +5,7 @@ import './index.css';
 import Cheap from '../../assets/Cheap.png';
 import Resnet from '../../assets/Resnet3.png';
 import Google from '../../assets/Google.png';
+import Socials from "../Socials";
 
 const Projects = () => {
     const projects = [

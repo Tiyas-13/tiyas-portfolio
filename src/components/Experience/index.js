@@ -5,6 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { ReactComponent as SchoolIcon} from "../../assets/school.svg";
 import { ReactComponent as WorkIcon} from "../../assets/work.svg"
+import Socials from "../Socials";
 
 const Experience = () => {
     const [selectedTab, setSelectedTab] = useTabs([

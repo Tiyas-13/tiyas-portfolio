@@ -6,6 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import {AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineProject, AiOutlinePhone} from "react-icons/ai";
 import { Link } from 'react-scroll';
 import {FaPerson} from "react-icons/fa6";
+import Socials from "../Socials";
 
 const Navbar = () => {
     const [mm, setMm] = useState(false);
@@ -109,6 +110,7 @@ const Navbar = () => {
 
 
             {/* social icons */}
+            <Socials />
 
 
             </div>

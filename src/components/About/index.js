@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import './index.css'; // Make sure to create this CSS file
+import './index.css';
+import Socials from "../Socials"; // Make sure to create this CSS file
 
 const About = ({ id, children }) => {
 
