@@ -34,7 +34,8 @@ const About = ({ id, children }) => {
                         </p>
                         <br />
                         <p className="text-[#B08D57]">
-                            I love travelling and meeting new people, and if you can't tell from my website, I am a huge Harry Potter fan.
+                            I love travelling and meeting new people, and I read Harry Potter when I am stressed. I fell in love with science
+                            because to a younger me, it felt like magic.
                             I have discovered a new found love for tiramisus and am spending most of my time trying to figure out how to make
                             the perfect one myself; besides coding of course :)
 

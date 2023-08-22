@@ -1,17 +1,21 @@
 import React from 'react';
 import './index.css'; // You can add your CSS styles here
-import videoSource from '../../assets/contact-bg-7.mp4'; // Replace with your video source
+import videoSource from '../../assets/contact-bg-10.mp4'; // Replace with your video source
 import Socials from '../Socials';
 
 const Contact = () => {
     return (
-        <div name="contact" className="w-full h-full contact-page">
+        <div name="contact" className="w-full h-full contact-page pt-10">
             {/* Background Video */}
-            <video autoPlay loop muted className="video-background opacity-70">
+            <video autoPlay loop muted className="video-background">
                 <source src={videoSource} type="video/mp4" />
             </video>
 
             {/* Content */}
+            <div className="text-center">
+                <h2 className="text-3xl lg:text-5xl font-bold text-[#5A142A] mb-2 text-with-shadow">Contact Me</h2>
+                <div className="h-1 bg-[#5A142A] w-16 mx-auto mb-0"></div>
+            </div>
             <div className="max-w-5xl h-[90vh] flex flex-col justify-center items-center px-4">
                 <div className="max-w-lg mx-auto lg:w-[2000px]">
                     <form className="bg-[#F2EDE4] p-8 rounded-lg shadow-2xl"
