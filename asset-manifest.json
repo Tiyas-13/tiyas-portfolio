@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tiyas-portfolio/static/css/main.8723caf2.css",
-    "main.js": "/tiyas-portfolio/static/js/main.9182e505.js",
+    "main.css": "/tiyas-portfolio/static/css/main.aeebefe6.css",
+    "main.js": "/tiyas-portfolio/static/js/main.72ebc299.js",
     "static/media/tiyas-2.jpg": "/tiyas-portfolio/static/media/tiyas-2.08a00ad4892a057be590.jpg",
     "static/media/Cheap.png": "/tiyas-portfolio/static/media/Cheap.711d23f6ef8421ac7996.png",
     "static/media/Google.png": "/tiyas-portfolio/static/media/Google.b1b0c69321ee9c56a314.png",
@@ -21,11 +21,11 @@
     "static/media/school.svg": "/tiyas-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/tiyas-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/tiyas-portfolio/index.html",
-    "main.8723caf2.css.map": "/tiyas-portfolio/static/css/main.8723caf2.css.map",
-    "main.9182e505.js.map": "/tiyas-portfolio/static/js/main.9182e505.js.map"
+    "main.aeebefe6.css.map": "/tiyas-portfolio/static/css/main.aeebefe6.css.map",
+    "main.72ebc299.js.map": "/tiyas-portfolio/static/js/main.72ebc299.js.map"
   },
   "entrypoints": [
-    "static/css/main.8723caf2.css",
-    "static/js/main.9182e505.js"
+    "static/css/main.aeebefe6.css",
+    "static/js/main.72ebc299.js"
   ]
 }
