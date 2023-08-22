@@ -13,7 +13,7 @@ function App() {
   return (
       <div>
           <Navbar />
-    {/*<div className="bg-[#F7F4EC]">*/}
+    <div className="bg-[#F7F4EC]">
         <Element name="home">
             <AnimatedSection id="home" thr={0.2}><Home /></AnimatedSection>
         </Element>
@@ -26,7 +26,7 @@ function App() {
         <Element name="projects">
             <AnimatedSection id="projects" thr={0.05}><Projects /></AnimatedSection>
         </Element>
-    {/*</div>*/}
+    </div>
           <Element name="contact">
               <AnimatedSection id="contact" thr={0.1}><Contact /></AnimatedSection>
           </Element>
