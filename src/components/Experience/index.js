@@ -84,7 +84,21 @@ const Experience = () => {
                     <VerticalTimeline lineColor="#F2EDE4" layout="2-columns" animate={true}>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--education"
-                            date="September 2022 - Present"
+                            date="June 2024 - Present"
+                            contentStyle={{ background: '#F2EDE4'}}
+                            iconStyle={{ background: '#B08D57', color: '#F2EDE4' }}
+                            icon={<WorkIcon />}
+                        >
+                            <h3 className="vertical-timeline-element-title font-bold text-lg">Goldman Sachs</h3>
+                            <h4 className="vertical-timeline-element-subtitle font-bold">Software Engineer</h4>
+                            <ul className="list-disc ml-6">
+                                <li className="mb-2">Designed and orchestrated an input host to s3 bucket file transfer and an ETL pipeline to transform input to output data</li>
+                                <li>Improving and systemizing data flow and sourcing within the firm</li>
+                            </ul>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--education"
+                            date="September 2022 - May 2024"
                             contentStyle={{ background: '#F2EDE4'}}
                             iconStyle={{ background: '#B08D57', color: '#F2EDE4' }}
                             icon={<WorkIcon />}
