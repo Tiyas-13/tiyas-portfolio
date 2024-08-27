@@ -169,9 +169,6 @@ const Home = () => {
                                          <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
                                              <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
                                          </p>
-                                         <p className="text-gray-700 text-sm md:text-base font-bold">
-                                             Open to New Grad Software Engineering roles starting 2024
-                                         </p>
                                      </div>
                 </div>
             </div>
