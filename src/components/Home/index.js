@@ -20,8 +20,8 @@ import Socials from "../Socials";
 const Home = () => {
     const resumeUrl = 'https://drive.google.com/file/d/1ADgvn05_HvbSHgjl3pN5V9-8u0fjwuco/view?usp=sharing';
 
-    const jobTitles = ['Software Engineer', 'Graduate Student'];
-    const location = 'New York City, USA';
+    const jobTitles = ['Software Engineer', 'NYU Graduate'];
+    const location = 'Jersey City, NJ, USA';
 
     const [titleIndex, setTitleIndex] = useState(0);
     const [currentTitle, setCurrentTitle] = useState('');

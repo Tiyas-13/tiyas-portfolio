@@ -20,13 +20,14 @@ const About = ({ id, children }) => {
                     </div>
                     <div className="bg-white shadow-lg p-4 rounded-lg">
                         <p className="text-[#B08D57]">
-                            I am a graduate student at New York University pursuing a MS in Computer Engineering. I currently live in New York, USA. I love
+                            I am an early career Software Engineer, currently working at Goldman Sachs. I graduated from
+                            New York University with a MS in Computer Engineering. I currently live in Jersey City, NJ, USA. I love
                             learning and gathering new experiences and aspire to make meaningful contributions in
                             the world through my skills.
                         </p>
                         <br />
                         <p className="text-[#B08D57]">
-                            I primarily code in Java and Python. I have about 1 year of Full time work experience at JPMorgan Chase
+                            I primarily code in Java and Python. I have about 1 year of additional Full time work experience at JPMorgan Chase
                             as a Software Engineer along with other valuable internship experiences. I am experienced in Full Stack Web
                             Development, API Development and Data Manipulation. My technical skills include Java, Python, C, React.js,
                             Spring Boot, Flask, MySQL, MongoDB, AWS, GCP among others. I am also a Data Science and
